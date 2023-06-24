@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -335,6 +336,11 @@ form input {
     color: #FFFFFF;
 }
 
+button > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 
 @media only screen and (min-width: 992px) {
   
@@ -560,5 +566,7 @@ form input {
     gap: 12px;
 }
  
-
+.footer-boton a{
+    color: #8B48BF;
+}
 }
